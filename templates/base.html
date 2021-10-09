@@ -14,8 +14,41 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       crossorigin="anonymous"
     />
+    <style>
+       body{
+        margin:0;
+        background-color: grey;
+        
+}
+h1{
+        background-color: gray;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 50px;
+        color:blue;
+        text-align: center;
+}
+h2{
+        font-family: cursive;
+        font-size: 30px;
+        color: blue;
+        text-align: center;
+        
+}
+a:link, a:visited {
+        background-color: #f44336;
+        color:rgba(40, 40, 238, 0.911);
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: red;
+      }
+      </style>
+    {% block head %} {% endblock %}
 
-    <title>{% block title %}Home{% endblock %}</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

@@ -1,21 +1,21 @@
 body{
         margin:0;
-        background-color: black;
+        background-color: light-grey;
         
 }
 h1{
-        background-color: black;
-        font-family: 'Franklin Gothic Medium';
+        background-color: gray;
+        font-family: 'serif';
         font-size: 50px;
-        color: red;
+        color:blue;
         text-align: center;
 }
 h2{
         background-color: black;
         font-family: cursive;
         font-size: 30px;
-        color: red;
-        text-align: center;
+        color: blue;
+        text-align: left;
         
 }
 a:link, a:visited {
