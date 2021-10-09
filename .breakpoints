@@ -4,8 +4,8 @@
       {
         "id": "c7c38699-6249-4f7a-a3e2-5c0f7a57d5f5",
         "line": 33,
-        "version": 132,
-        "index": 861
+        "version": 157,
+        "index": 1079
       }
     ],
     "templates/home.html": [
@@ -14,6 +14,14 @@
         "line": 1,
         "version": 196,
         "index": 0
+      }
+    ],
+    "website/auth.py": [
+      {
+        "id": "43194150-0e08-42fb-815e-ce39f0f708a9",
+        "line": 76,
+        "version": 2207,
+        "index": 2480
       }
     ]
   }
