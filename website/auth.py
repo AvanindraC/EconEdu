@@ -46,7 +46,7 @@ def quiz1():
             points+=10
         else:
             points-=5        
-        flash(f'Total points:-{points}', category="success")
+        flash(f'Total points: {points}', category="success")
     return render_template('quiz.html', user=current_user)
 @auth.route('/quiz2', methods=['GET', 'POST'])
 @login_required
@@ -78,7 +78,7 @@ def quiz2():
             points+=10
         else:
             points-=5        
-        flash(f'Total points:-{points}')
+        flash(f'Total points: {points}')
     return render_template('quiz2.html', user=current_user)
 
 @auth.route('/quiz3', methods=['GET', 'POST'])
@@ -111,7 +111,7 @@ def quiz3():
             points+=10
         else:
             points-=5        
-        flash(f'Total points:-{points}', category="success")
+        flash(f'Total points: {points}', category="success")
     return render_template('quiz3.html', user=current_user)
 @auth.route('/logout')
 @login_required

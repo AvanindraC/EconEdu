@@ -37,3 +37,7 @@ a:link, a:visited {
         background-color: black;
       }
       
+iframe{
+        height: fit-content;
+        width: fit-content;
+}
