@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 from flask_login import login_user, login_required, logout_user, current_user
 
-
+from sqlalchemy import select
 
 auth = Blueprint('auth', __name__)
 
@@ -47,6 +47,8 @@ def quiz1():
         else:
             points-=5        
         flash(f'Total points: {points}', category="success")
+       
+
     return render_template('quiz.html', user=current_user)
 @auth.route('/quiz2', methods=['GET', 'POST'])
 @login_required
@@ -79,6 +81,8 @@ def quiz2():
         else:
             points-=5        
         flash(f'Total points: {points}')
+        
+
     return render_template('quiz2.html', user=current_user)
 
 @auth.route('/quiz3', methods=['GET', 'POST'])
@@ -112,6 +116,9 @@ def quiz3():
         else:
             points-=5        
         flash(f'Total points: {points}', category="success")
+        
+
+            
     return render_template('quiz3.html', user=current_user)
 @auth.route('/logout')
 @login_required
@@ -160,8 +167,7 @@ def signup():
             new_user = User(
                 email=email, 
                 first_name=name, 
-                password=generate_password_hash(password1, method="sha256"
-                ))
+                password=generate_password_hash(password1, method="sha256"))
             db.session.add(new_user)
             db.session.commit()
             flash('Account Successfully created!', category="success")

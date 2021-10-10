@@ -29,15 +29,15 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar">
+      <div class="collapse navbar-collapse navbar-dark bg-dark" id="navbar">
         <div class="navbar-nav">
         {% if user.is_authenticated %}
 
           
           <a class="nav-item nav-link" id="home" href="/">Home</a>
           <a class="nav-item nav-link" id="learn" href="/learn">Learn</a>
-          <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Quiz</span><span class="caret"></span></a>
+          <li class="dropdown-submenu navbar-dark bg-dark">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label ">Quiz</span><span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/quiz">Blockchain</a></li>
                         <li><a href="/quiz2">Finance</a></li>
@@ -90,7 +90,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    
+
 {% block body %}
 {% endblock %}
   </body>
