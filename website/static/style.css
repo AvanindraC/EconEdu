@@ -1,0 +1,39 @@
+
+body{
+        margin:0;
+        color:white;
+       background-image: linear-gradient(to top right,blue,lightskyblue);
+       image-resolution: 720*400
+         
+        
+}
+h1{
+        font-family: 'Georgia';
+        font-size: 50px;
+        color:black;
+        text-align: center;
+}
+h2{
+        font-family: cursive;
+        font-size: 30px;
+        
+        text-align: center;
+        
+}
+p{
+      font-family: Open Sans;
+      font-size: 20px
+}
+a:link, a:visited {
+        background-color: lightskyblue;
+        color:gray;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: black;
+      }
+      

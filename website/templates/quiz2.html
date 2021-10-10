@@ -1,0 +1,48 @@
+{% extends "base.html" %} 
+{% block head %}
+  <title>EcoEdu Quiz </title>
+  
+{% endblock %}
+<h1>EcoEdu Quiz 2</h1>
+<h2> Topic :- Finance<h2>
+{% block content %}
+<form method="POST">
+
+  Q1. Investment can be defined as<br>
+  <input type = "radio" name = "2question1" id="2q1" value="Person’s dedication to purchasing a house or flat">Person’s dedication to purchasing a house or flat<br>
+  <input type = "radio" name = "2question1" id="2q2" value="Use of capital on assets to receive returns">Use of capital on assets to receive returns<br>
+  <input type = "radio" name = "2question1" id="2q2" value="Usage of money on a production process of products and services">Usage of money on a production process of products and services<br>
+  <input type = "radio" name = "2question1"id="2q2" value="Net additions made to the nation’s capital stocks">Net additions made to the nation’s capital stocks<br>
+
+  Q2. The concept of Financial management is<br>
+   <input type = "radio" name = "2question2"id="2q2" value="Profit maximization">Profit maximization<br>
+   <input type = "radio" name = "2question2" id="2q2" value="All features of obtaining and using financial resources for company operations">All features of obtaining and using financial resources for company operations<br>
+   <input type = "radio" name = "2question2" id="2q2" value="Organization of funds">Organization of funds<br>
+   <input type = "radio" name = "2question2" id="2q2"value="Effective Management of every company">Effective Management of every company<br>
+
+ Q3.A working paper of accountants, prepared with a lead pencil, is called:<br>
+   <input type = "radio" name = "2question3" id="2q3"value="Worksheet">Worksheet<br>
+   <input type = "radio" name = "2question3" id="2q3" value="Financial statement">Financial statement
+<br>
+   <input type = "radio" name = "2question3" id="2q3"value="Balance sheet">Balance sheet
+<br>
+   <input type = "radio" name = "2question3" id="2q3" value="Trial balance">Trial balance<br>
+
+ Q4. Which one of the following is not a permanent record of accounting?<br>
+   <input type = "radio" name = "2question4" id="2q4"value="Journal">Journal<br>
+   <input type = "radio" name = "2question4"id="2q4"value="Ledger">Ledger<br>
+   <input type = "radio" name = "2question4" id="2q4"value="Balance sheet">Balance sheet<br>
+   <input type = "radio" name = "2question4" id="2q4"value="Worksheet">Worksheet<br>
+   Q5.A worksheet is:<br>
+   <input type = "radio" name = "2question5" id="2q5"value="Part of the permanent record">Part of the permanent record<br>
+   <input type = "radio" name = "2question5" id="2q5" value="Part of the financial statement">Part of the financial statement<br>
+   <input type = "radio" name = "2question5" id="2q5" value="Both of the above">Both of the above<br>
+   <input type = "radio" name = "2question5" id="2q5"value="None of the above">None of the above<br>
+
+  <input type="submit" name="submit" value="SubmitQuiz">
+</form>
+
+<style>
+  background: linear-gradient(bottom left,green,black);
+</style>
+{% endblock %}

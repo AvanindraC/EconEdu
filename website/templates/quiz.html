@@ -1,66 +1,46 @@
 {% extends "base.html" %} 
 {% block head %}
-  <title>EcoEdu Quiz</title>
+  <title>EcoEdu Quiz </title>
   
 {% endblock %}
+<h1>EcoEdu Quiz 1</h1>
+<h2> Topic :- Blockchain<h2>
+{% block content %}
+<form method="POST">
 
-{% block body %}
-<h1>EcoEdu Quiz</h1>
   Q1. In BlockChain, what does a node mean ?<br>
-  <input type = "radio" name = "question1" >An Exchange<br>
-  <input type = "radio" name = "question1" >A type of Currency<br>
-  <input type = "radio" name = "question1" >A blockchain<br>
-  <input type = "radio" name = "question1"id = "correct1" >A computer on a blockchain network<br>
+  <input type = "radio" name = "question1" id="q1" value="An Exchange">An Exchange<br>
+  <input type = "radio" name = "question1" id="q1" value="A type of Currency">A type of Currency<br>
+  <input type = "radio" name = "question1" id="q1" value="A blockchain">A blockchain<br>
+  <input type = "radio" name = "question1"id="q1" value="A computer on a blockchain network">A computer on a blockchain network<br>
 
   Q2. What does Asymmetric Encryption use ?<br>
-   <input type = "radio" name = "question2"id = "correct2" >Public and Private keys<br>
-   <input type = "radio" name = "question2" >Proof of stake<br>
-   <input type = "radio" name = "question2" >Public Keys Only<br>
-   <input type = "radio" name = "question2" >Only Private keys<br>
+   <input type = "radio" name = "question2"id="q2" value="Public and Private keys">Public and Private keys<br>
+   <input type = "radio" name = "question2" id="q2" value="Proof of stake">Proof of stake<br>
+   <input type = "radio" name = "question2" id="q2" value="Public Keys Only">Public Keys Only<br>
+   <input type = "radio" name = "question2" id="q2"value="Only Private Keys">Only Private keys<br>
 
    Q3. P2P stand for -<br>
-   <input type = "radio" name = "question3" >Product to Product<br>
-   <input type = "radio" name = "question3"id = "correct3" >Peer to Peer<br>
-   <input type = "radio" name = "question3" >Password to Password<br>
-   <input type = "radio" name = "question3" >Public Key to Private key<br>
+   <input type = "radio" name = "question3" id="q3"value="Product to Product">Product to Product<br>
+   <input type = "radio" name = "question3" id="q3" value="Peer to Peer">Peer to Peer<br>
+   <input type = "radio" name = "question3" id="q3"value="Password to Password">Password to Password<br>
+   <input type = "radio" name = "question3" id="q3" value="Public Key to Private Key">Public Key to Private key<br>
 
    Q4. Who is the founder of "Bitcoin" ?<br>
-   <input type = "radio" name = "question4" >Warren Buffet<br>
-   <input type = "radio" name = "question4"id = "correct4" >Satoshi Nakamoto<br>
-   <input type = "radio" name = "question4" >Nokia<br>
-   <input type = "radio" name = "question4" >Microsoft<br>
+   <input type = "radio" name = "question4" id="q4"value="Warren Buffet">Warren Buffet<br>
+   <input type = "radio" name = "question4"id="q4"value="Satoshi Nakamoto" >Satoshi Nakamoto<br>
+   <input type = "radio" name = "question4" id="q4"value="Nokia">Nokia<br>
+   <input type = "radio" name = "question4" id="q4"value="Microsoft">Microsoft<br>
    Q5. What is a miner in terms of Blockchain ?<br>
-   <input type = "radio" name = "question5" >transaction picking algorithm<br>
-   <input type = "radio" name = "question5" >Calculations to verify transactions<br>
-   <input type = "radio" name = "question5"id = "correct5" >Computers that validate and process blockchain transactions<br>
-   <input type = "radio" name = "question5" >A type of blockchain<br>
+   <input type = "radio" name = "question5" id="q5"value="transaction picking algorithm">transaction picking algorithm<br>
+   <input type = "radio" name = "question5" id="q5" value="Calculations to verify transactions">Calculations to verify transactions<br>
+   <input type = "radio" name = "question5" id="q5" value="Computers that validate and process blockchain transactions">Computers that validate and process blockchain transactions<br>
+   <input type = "radio" name = "question5" id="q5"value="A type of blockchain">A type of blockchain<br>
 
-  <input type="submit" name="submit" value="SubmitQuiz" onClick="result()">
-<script type="text/javascript">
-function result()
-{
-	var score=0;
-	if(document.getElementById("correct1").checked)
-		{	score++;
-		}
-	if(document.getElementById('correct2').checked)
-		{	score++;
-		}
-	if(document.getElementById('correct3').checked)
-		{	score++;
-		}
-  if(document.getElementById('correct4').checked)
-		{	score++;
-		}
-  if(document.getElementById('correct5').checked)
-		{	score++;
-		}
- alert("Your score is:"+score);
-
-}
-</script>
+  <input type="submit" name="submit" value="SubmitQuiz">
+</form>
 
 <style>
-  background: linear-gradient(Rectangle, green, ..., black);
-
+  background: linear-gradient(bottom left,green,black);
+</style>
 {% endblock %}

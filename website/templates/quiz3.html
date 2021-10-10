@@ -1,0 +1,46 @@
+{% extends "base.html" %} 
+{% block head %}
+  <title>EcoEdu Quiz </title>
+  
+{% endblock %}
+<h1>EcoEdu Quiz 3</h1>
+<h2> Topic :- Stocks<h2>
+{% block content %}
+<form method="POST">
+
+  Q1. Which of the following are responsible for the fluctuations in the Sensex?<br>
+  <input type = "radio" name = "question1" id="q1" value="Rain">Rain<br>
+  <input type = "radio" name = "question1" id="q1" value="Monetary policy">Monetary policy<br>
+  <input type = "radio" name = "question1" id="q1" value="Political Instability">Political Instability<br>
+  <input type = "radio" name = "question1"id="q1" value="None of the following">None of the following<br>
+
+  Q2.The money market where debt and stocks are traded and maturity period is more than a year is known as<br>
+   <input type = "radio" name = "question2"id="q2" value="Long-term market">Long-term market<br>
+   <input type = "radio" name = "question2" id="q2" value="Counter market">Counter market<br>
+   <input type = "radio" name = "question2" id="q2" value="Capital market">Capital market<br>
+   <input type = "radio" name = "question2" id="q2"value="Shorter term market">Shorter term market<br>
+
+   Q3.Which of the following might be a reason for a stock market to lose value suddenly?<br>
+   <input type = "radio" name = "question3" id="q3"value="A big company going bankrupt">A big company going bankrupt<br>
+   <input type = "radio" name = "question3" id="q3" value="Fear of a global recession">A terrorist attack<br>
+   <input type = "radio" name = "question3" id="q3"value="A terrorist attack">A terrorist attack<br>
+   <input type = "radio" name = "question3" id="q3" value="All of the above">All of the above<br>
+
+Q4.The capital market in India is controlled by?<br>
+   <input type = "radio" name = "question4" id="q4"value="RBI">RBI<br>
+   <input type = "radio" name = "question4"id="q4"value="NABARD">NABARD<br>
+   <input type = "radio" name = "question4" id="q4"value="SEBI">SEBI<br>
+   <input type = "radio" name = "question4" id="q4"value="IRDA">IRDA<br>
+Q5.Which term most accurately describes selling shares at a higher price than the price at which they were bought?<br>
+   <input type = "radio" name = "question5" id="q5"value="Loss">Loss<br>
+   <input type = "radio" name = "question5" id="q5" value="Profit">Profit<br>
+   <input type = "radio" name = "question5" id="q5" value="Asset">Asset<br>
+   <input type = "radio" name = "question5" id="q5"value="Divident">Divident<br>
+
+  <input type="submit" name="submit" value="SubmitQuiz">
+</form>
+
+<style>
+  background: linear-gradient(bottom left,green,black);
+</style>
+{% endblock %}
