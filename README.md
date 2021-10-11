@@ -21,4 +21,4 @@ So this website will help the youth learn more about economics
 
 ## Creators
 
-- [Avanindra Chakraborty][https://github.com/AvanindraC/]
+- [Avanindra Chakraborty](https://github.com/AvanindraC/)
