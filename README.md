@@ -22,3 +22,36 @@ So this website will help the youth learn more about economics
 ## Creators
 
 - [Avanindra Chakraborty](https://github.com/AvanindraC/)
+- [Sion Chowdhury](https://github.com/Sion1407)
+- [Ayushman Biswas](https://github.com/AyushNubCoder)
+- [Tamonud Sharma](https://github.com/spidey711)
+
+All of them worked great, and it wouldn't be possible without even one of them
+
+## Tools used
+
+<a href="#">
+    <img src="https://raw.githubusercontent.com/fenix-hub/ColoredBadges/master/svg/dev/languages/python.svg">
+</a> 
+
+<a href="#">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/html.svg">
+</a> 
+
+<a href='#'>
+  <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/css3.svg">
+</a>
+
+<a href="#">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/frameworks/bootstrap.svg">
+</a> 
+
+<a href="#">
+    <img src="https://raw.githubusercontent.com/klaasnicolaas/ColoredBadges/new-badges/svg/dev/tools/git.svg">
+</a> 
+<a href="#">
+    <img src="https://raw.githubusercontent.com/klaasnicolaas/ColoredBadges/new-badges/svg/dev/services/github.svg">
+</a> 
+<a href="#">
+    <img s
+         
