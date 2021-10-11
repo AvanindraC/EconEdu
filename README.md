@@ -1,5 +1,7 @@
 # EconEdu
 
+![image](https://user-images.githubusercontent.com/77975448/136729792-b46c7f44-fb56-4e27-8672-96821b567035.png)
+
 https://econedu.avanindra.repl.co/
 
 https://econedu.xyz (not ready yet)
